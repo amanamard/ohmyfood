@@ -113,18 +113,22 @@ input{
 
 
 .button-icon{
-	position: relative;
-	left: 5%;
+	margin-left: 5%;
+	
 }
 
 .button-choice{
-	position: relative;
-	left: 15%;
+	margin-left: 10%;
+	
 }
 
 .functioning-button:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	background: background: linear-gradient(#9356DC, #FF79DA);
+	background: #f5edff;
+}
+
+.functioning-button:hover > .button-icon .icon{
+	color: #9356DC;
 }
 
 /*restaurants*/
@@ -171,6 +175,18 @@ a{
 .card-container p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+}
+
+.label{
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	background: #99E2D0;
+	color: #008766;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 
 /*footer*/
