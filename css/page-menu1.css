@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+/*header*/
+.header-container{
+	padding: 2% 0 2% 0;
+}
+
+.header-items{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#logo{
+	font-family: 'Shrikhand', cursive;
+}
+
+.return-icon{
+	font-size: 150%;
+	color: black;
+	position: relative;
+	right: 100%;
+}
+
+/*restaurant image*/
+.restaurant-image{
+	width: 100%;
+}
+
+/*restaurant menu*/
+.restaurant-name{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.restaurant-name h2{
+	font-family: 'Shrikhand', cursive;
+}
+
+.entries h4, .meals h4, .desserts h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.entry, .meal, .dessert{
+	background: white;
+	border: 1px solid #f2f2f2;
+	border-radius: 15px 15px;
+}
+
+.entry h4, .meal h4, .dessert h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.entry-item, .meal-item, .dessert-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.entry-item h6, .meal-item h6, .dessert-item h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.entry-item h4, .meal-item h4, .dessert-item h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.order{
+	text-align: center;
+}
+
+.order-button{
+	border-radius: 40px 40px;
+	background: #9356DC;
+	color: white;
+	padding: 2% 2%;
+	margin-bottom: 3%;
+	border: 1px none #9356DC;
+}
+
+.order-button:hover{
+	background: linear-gradient(#FF79DA, #9356DC);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*footer*/
+.footer-container{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background: #353535;
+	color: white;
+}
+
+.footer-title h2{
+	font-family: 'Shrikhand', cursive;
+}
+
+.footer-items ul{
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: black;
+	padding-left: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.footer-items li a{
+	color: white;
+}
